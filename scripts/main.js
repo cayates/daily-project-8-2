@@ -32,7 +32,10 @@ for (i=0; i < hand.length; i++){
             } else if ((hand[i] === "A") && (faceAndNumberTotal > 11)){
               faceAndNumberTotal += 1;
             }
-// console.log(faceAndNumberTotal);
+// console.log(faceAndNumberTotal);    
+}
+if (faceAndNumberTotal > 21){
+  faceAndNumberTotal -= 10;
 }
 
           
